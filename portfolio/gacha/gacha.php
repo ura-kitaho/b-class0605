@@ -1,0 +1,53 @@
+<html>
+
+<body>
+    <form action="gacha.php">
+        <input type="submit" value="ガチャ">
+    </form>
+</body>
+
+</html>
+
+<?php
+
+error_reporting(E_ALL & ~E_NOTICE);
+
+$testuser = "testuser";
+$testpass = "testpass";
+$host = "localhost";
+$datebase = "booksample";
+
+
+
+try {
+    $db = new PDO("mysql:host={$host}; dbname={$datebase}; charset=utf8", $testuser, $testpass);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    if ($db == null) {
+        # エラーが起きたとき、ここは実行されずにcatch内が実行
+    } else {
+        $rand = rand(0, 4);
+        $chara = array("デク", "バクゴー", "轟", "麗日", "委員長");
+        $rarity = array("★★★", "★★", "★★", "★", "★");
+        $member = $chara[$rand];
+        $rare = $rarity[$rand];
+
+        echo $member;
+
+        $SQL = <<<_SQL_
+INSERT INTO gacha(
+	name,
+	rarity
+)
+VALUES (
+    '$member',
+    '$rare'
+)
+
+_SQL_;
+        $db->query($SQL);
+    }
+} catch (PDOException $e) {
+    echo "エラー内容：" . $e->getMessage();
+    die();
+}
+$db = null;
