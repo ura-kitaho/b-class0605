@@ -1,8 +1,11 @@
 <?php
 echo "This is test";
-<<<<<<< HEAD
-echo "フェス最高やった";
-=======
+
+
 
 echo "aiueo";
->>>>>>> master
+
+
+
+echo "私は野球が好き";
+
