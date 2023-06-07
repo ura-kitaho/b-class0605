@@ -22,7 +22,7 @@
         <input type="radio" name="janken" value="グー">グー<br>
         <input type="radio" name="janken" value="チョキ">チョキ<br>
         <input type="radio" name="janken" value="パー">パー<br>
-        <input type="submit" name="submit" value="じゃんけんホイ！">
+        <input type="submit" name="submit" value="じゃんけんホイ">
 </form>
 
 <?php
