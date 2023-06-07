@@ -7,6 +7,7 @@
 
 <body>
     <h2>ガチャガチャ</h2>
+    <header>
     <ul class=nav>
         <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
         <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
@@ -14,6 +15,7 @@
         <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
         <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
     </ul>
+</header>
     <form action="gacha.php">
         <input type="submit" value="ガチャ">
     </form>

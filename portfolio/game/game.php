@@ -70,6 +70,9 @@
     }
 
     ?>
+    <footer>
+        ©2023 KUBOTA CORPORATION
+    </footer>
 </body>
 
 </html>
