@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/style.css">
+</head>
+<body>
+    
+
+
 <?php
 //入力確認
 if ($_GET["mode"] == "post") {
@@ -60,7 +73,7 @@ function conf_form()
     <input type="hidden" name="name" value="$name">
     <input type="hidden" name="mail" value="$mail">
     <input type="hidden" name="comment" value="$comment">
-    <input type="button"  value="前に戻る" onclick="history.back()"> //なにこれ
+    <input type="button"  value="前に戻る" onclick="history.back()"> 
     <input type="submit"  value="送信する">
     <input type="hidden" name="mode" value="send">
     </form>
@@ -82,3 +95,8 @@ function send_form()
     flock($fh, LOCK_UN);
     fclose($fh);
 }
+
+?>
+
+</body>
+</html>
