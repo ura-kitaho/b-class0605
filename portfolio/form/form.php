@@ -29,7 +29,7 @@ $comment = htmlentities($comment, ENT_QUOTES, "UTF-8");
 
 //改行処理
 $name = str_replace("\r\n", "", $name);
-$email = str_replace("\r\n", "", $email);
+$mail = str_replace("\r\n", "", $email);
 $comment = str_replace("\r\n", "", $comment);
 $comment = str_replace("\r", "", $comment); //これの意味の確認する！
 $comment = str_replace("\n", "", $comment); //これの意味の確認する！
