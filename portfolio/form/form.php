@@ -6,8 +6,10 @@ if ($_GET["mode"] == "post") {
         echo "<a href = 'form.html'>お問い合わせフォームに戻る</a>";
     } elseif ($_GET["mail"] == "") {
         echo "メールアドレスを入力してください";
+        echo "<a href = 'form.html'>お問い合わせフォームに戻る</a>";
     } elseif ($_GET["comment"] == "") {
         echo "お問い合わせ内容を入力してください";
+        echo "<a href = 'form.html'>お問い合わせフォームに戻る</a>";
     } elseif ((!$_GET["name"] == "") &&  (!$_GET["mail"] == "") && (!$_GET["comment"] == "")) {
         conf_form();
     }
