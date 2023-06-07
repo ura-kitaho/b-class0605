@@ -1,8 +1,18 @@
-body{
-    font-size: 35px; background-color: gold;
+h2{
+ font-size : 75px;
 }
-li{
-  float:center;
+
+h3{
+  font-size : 45px;
+}
+
+.nav{
+  float : left;
   margin-right:85px;
   list-style-type:none;
 }
+
+body{
+     background-color: gold;
+}
+
