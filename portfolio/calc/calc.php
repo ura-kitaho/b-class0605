@@ -1,5 +1,6 @@
 <head>
-    <link rel="stylesheet" href="/common/style.css">
+    <link rel="stylesheet" href="../common/style.css">
+    <title>dentaku</title>
 </head>
 
 <form action="calc.php" method="" get>
