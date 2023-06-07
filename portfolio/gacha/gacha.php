@@ -4,6 +4,14 @@
     <form action="gacha.php">
         <input type="submit" value="ガチャ">
     </form>
+
+    <ul>
+        <li><a href="form.php">form</a></li>
+        <li><a href="gacha.php">gacha</a></li>
+        <li><a href="game.php">game</a></li>
+        <li><a href="calc.php">calc</a></li>
+        <li><a href="index.php">index</a></li>
+    </ul>
 </body>
 
 </html>

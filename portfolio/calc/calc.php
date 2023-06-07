@@ -11,6 +11,14 @@
 
     <input type="submit" value="keisan">
 
+    <ul>
+        <li><a href="form.php">form</a></li>
+        <li><a href="gacha.php">gacha</a></li>
+        <li><a href="game.php">game</a></li>
+        <li><a href="calc.php">calc</a></li>
+        <li><a href="index.php">index</a></li>
+    </ul>
+
 </form>
 
 <?php
