@@ -5,5 +5,20 @@ li{
   float:center;
   margin-right:85px;
   list-style-type:none;
-
+}
+#left{
+  float:left;
+  width:200px;
+}
+#center{
+  float:left;
+  width:250px;
+}
+#right{
+  float:left;
+  width:350px;
+}
+#contents{
+  clear:both;
+  width:800px;
 }
