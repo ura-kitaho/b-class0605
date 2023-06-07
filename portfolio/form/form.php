@@ -45,13 +45,13 @@ function conf_form()
     echo <<< _FORM_
     <title>確認フォーム</title>
     <p>
-    お名前<br>$name
+    お名前<br>$name<br>
     </p>
     <p>
-    メールアドレス<br>$mail
+    メールアドレス<br>$mail<br>
     </p>
     <p>
-    お問い合わせ内容<br>$comment
+    お問い合わせ内容<br>$comment<br>
     </p>
     
     <form action="form.php" method="get">
