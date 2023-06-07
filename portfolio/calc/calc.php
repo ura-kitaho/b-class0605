@@ -13,7 +13,7 @@
 
     <body>
         <ul>
-            <li><a href="http://localhost/b-class0605/portfolio/form/form.php">form</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
