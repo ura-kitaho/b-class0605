@@ -1,9 +1,9 @@
 body{
-    font-size: 80%; background-color: aquamarine;
+    font-size: 85px; background-color: gold;
 }
 li{
   float:center;
-  margin-right:1000px;
+  margin-right:85px;
   list-style-type:none;
 
 }
