@@ -41,6 +41,7 @@ try {
         $rare = $rarity[$rand];
 
         echo $member;
+        echo $rare;
 
         $SQL = <<<_SQL_
 INSERT INTO gacha(
