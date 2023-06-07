@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <form action="calc.php" method="" get>
 
     <input type="text" name="num1" id="">

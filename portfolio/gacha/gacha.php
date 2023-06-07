@@ -1,5 +1,9 @@
 <html>
 
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
     <form action="gacha.php">
         <input type="submit" value="ガチャ">
