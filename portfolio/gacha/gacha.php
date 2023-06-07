@@ -25,10 +25,10 @@ try {
     if ($db == null) {
         # エラーが起きたとき、ここは実行されずにcatch内が実行
     } else {
-        $rand = rand(0, 4);
-        $chara = array("デク", "バクゴー", "轟", "麗日", "委員長");
-        $rarity = array("★★★", "★★", "★★", "★", "★");
-        $member = $chara[$rand];
+        $rand = rand(0, 5);
+        $animal = array("ライオン", "ゾウ", "シマウマ", "ウサギ", "イヌ", "ネコ");
+        $rarity = array("★★★", "★★", "★★", "★", "★", "★");
+        $member = $anumal[$rand];
         $rare = $rarity[$rand];
 
         echo $member;
