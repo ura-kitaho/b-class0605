@@ -3,21 +3,10 @@
     <title>dentaku</title>
 </head>
 
-<form action="calc.php" method="" get>
-
-    <input type="text" name="num1" id="">
-
-    <input type="radio" name="calc" id="" value="wa">+
-    <input type="radio" name="calc" id="" value="sa">-
-    <input type="radio" name="calc" id="" value="seki">×
-    <input type="radio" name="calc" id="" value="syou">÷
-
-    <input type="text" name="num2" id="">
-
-    <input type="submit" value="keisan">
-
-    <body>
-        <ul>
+<body>
+    <form action="calc.php" method="" get>
+        <h2>計算していくよ～</h2>
+        <ul class=nav>
             <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
@@ -25,8 +14,22 @@
             <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
         </ul>
 
-</form>
+        <input type="text" name="num1" id="">
 
+        <input type="radio" name="calc" id="" value="wa">+
+        <input type="radio" name="calc" id="" value="sa">-
+        <input type="radio" name="calc" id="" value="seki">×
+        <input type="radio" name="calc" id="" value="syou">÷
+
+        <input type="text" name="num2" id="">
+
+        <input type="submit" value="keisan">
+
+
+
+
+    </form>
+</body>
 <?php
 if ($_GET) {
     $num1 = $_GET["num1"];

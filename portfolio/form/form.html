@@ -10,26 +10,28 @@
 </head>
 
 <body>
-    <h1>お問い合わせフォーム</h1>
+    <h2>お問い合わせフォーム</h2>
 
-    <form action="form.php" method="get">
-        名前<br>
-        <input type="text" name="name"><br>
-        メールアドレス<br>
-        <input type="text" name="mail"><br>
-        お問い合わせ内容<br>
-        <textarea name="comment" cols="30" rows="10"></textarea><br>
-        <input type="submit" value="送信">
-        <input type="hidden" name="mode" value="post">
-    </form>
-
-    <ul>
+    <ul class = nav>
             <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
     </ul>
+
+    <form action="form.php" method="get">
+        <h3>名前</h3><br>
+        <input type="text" name="name"><br>
+        <h3>メールアドレス</h3><br>
+        <input type="text" name="mail"><br>
+        <h3>お問い合わせ内容</h3><br>
+        <textarea name="comment" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="送信">
+        <input type="hidden" name="mode" value="post">
+    </form>
+
+    
 </body>
 
 </html>
