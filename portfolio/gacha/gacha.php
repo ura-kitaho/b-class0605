@@ -37,10 +37,11 @@ try {
         $rand = rand(0, 5);
         $animal = array("ライオン", "ゾウ", "シマウマ", "ウサギ", "イヌ", "ネコ");
         $rarity = array("★★★", "★★", "★★", "★", "★", "★");
-        $member = $anumal[$rand];
+        $member = $animal[$rand];
         $rare = $rarity[$rand];
 
         echo $member;
+        echo $rare;
 
         $SQL = <<<_SQL_
 INSERT INTO gacha(
