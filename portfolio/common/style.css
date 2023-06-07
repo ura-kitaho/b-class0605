@@ -1,18 +1,57 @@
 h2{
- font-size : 75px;
+ font-size : 50px;
+ color : white;
 }
 
 h3{
   font-size : 45px;
+  
+}
+
+
+
+.nav li {
+  float : left;
+  margin-right:85px;
+  padding : 5px;
+  list-style-type:none;
+
+}
+
+.nav li a{
+  color : white;
 }
 
 .nav{
-  float : left;
-  margin-right:85px;
-  list-style-type:none;
+  padding-bottom : 50px;
 }
+
+h3{
+  clear : both;
+  font-size : 30px;
+  
+}
+
 
 body{
      background-color: gold;
+      align-items: center;
+      
+    
+}
+
+header{
+  background-image:url("../common/images/kubota.jpg");
+ 
+  background-size: auto;
+  margin-bottom:150px;
+}
+
+footer{
+  background-image:url("../common/images/makaroni.jpg");
+ 
+  background-size: auto;
+  height : 300px;
+  margin-top : 300px;
 }
 

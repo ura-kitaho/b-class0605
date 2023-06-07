@@ -96,7 +96,9 @@
         fclose($fh);
     }
     ?>
-
+<footer>
+        ©2023 KUBOTA CORPORATION
+    </footer>
 </body>
 
 </html>

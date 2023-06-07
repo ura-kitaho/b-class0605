@@ -4,15 +4,21 @@
 </head>
 
 <body>
-    <form action="calc.php" method="" get>
-        <h2>計算していくよ～</h2>
-        <ul class=nav>
+    <header>
+<h2>計算していくよ～</h2>
+<ul class=nav>
             <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
         </ul>
+
+        </header>
+    <form action="calc.php" method="" get>
+        
+       
+       
 
         <input type="text" name="num1" id="">
 
@@ -29,6 +35,9 @@
 
 
     </form>
+    <footer>
+        ©2023 KUBOTA CORPORATION
+    </footer>
 </body>
 <?php
 if ($_GET) {
