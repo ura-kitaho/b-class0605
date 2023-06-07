@@ -11,7 +11,7 @@
             <li><a href="http://localhost/b-class0605/portforio/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portforio/game.php">game</a></li>
             <li><a href="http://localhost/b-class0605/portforio/calc.php">calc</a></li>
-            <li><a href="http://localhost/b-class0605/portforio/index.php">index</a></li>
+            <li><a href="http://localhost/b-class0605/portforio/index.html">index</a></li>
         </ul>
     </body>
 
