@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/common/style.css">
+    <link rel="stylesheet" href="../portfolio/common/style.css">
 </head>
 
 <body>
