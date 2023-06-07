@@ -27,7 +27,7 @@ if ($_GET) {
     $num1 = $_GET["num1"];
     $num2 = $_GET["num2"];
 
-    if (isset($_GET("calc"))) {
+    if (isset($_GET["calc"])) {
 
         $value = $_GET["calc"];
 
