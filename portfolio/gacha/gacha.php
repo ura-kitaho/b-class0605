@@ -7,11 +7,11 @@
 
     <body>
         <ul>
-            <li><a href="http://localhost/b-class0605/portforio/form.php">form</a></li>
-            <li><a href="http://localhost/b-class0605/portforio/gacha.php">gacha</a></li>
-            <li><a href="http://localhost/b-class0605/portforio/game.php">game</a></li>
-            <li><a href="http://localhost/b-class0605/portforio/calc.php">calc</a></li>
-            <li><a href="http://localhost/b-class0605/portforio/index.html">index</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/form.php">form</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/gacha.php">gacha</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/game.php">game</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/calc.php">calc</a></li>
+            <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
         </ul>
     </body>
 
