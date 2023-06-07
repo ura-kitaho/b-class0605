@@ -6,19 +6,19 @@
 </head>
 
 <body>
+    <h2>ガチャガチャ</h2>
+    <ul class=nav>
+        <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
+        <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
+        <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
+        <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
+        <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
+    </ul>
     <form action="gacha.php">
         <input type="submit" value="ガチャ">
     </form>
 
-    <!-- <body>
-        <ul>
-            <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
-            <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
-            <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
-            <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
-            <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
-        </ul>
-    </body> -->
+
 </body>
 
 </html>
@@ -68,13 +68,3 @@ _SQL_;
 }
 $db = null;
 ?>
-
-<body>
-    <ul>
-        <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
-        <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
-        <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>
-        <li><a href="http://localhost/b-class0605/portfolio/calc/calc.php">calc</a></li>
-        <li><a href="http://localhost/b-class0605/portfolio/index.html">index</a></li>
-    </ul>
-</body>
