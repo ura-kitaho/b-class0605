@@ -6,7 +6,7 @@
 <body>
     <form action="calc.php" method="" get>
         <h2>計算していくよ～</h2>
-        <ul>
+        <ul class=nav>
             <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
             <li><a href="http://localhost/b-class0605/portfolio/game/game.php">game</a></li>

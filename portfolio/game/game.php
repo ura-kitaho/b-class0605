@@ -11,8 +11,7 @@
 
 <body>
 
-    <h2>ここからいろんなところに飛べるよ！！！</h2>
-    <h3>下の気になるとこから好きなところ行っちゃって～</h3>
+    <h2>ジャンケンしようぜ！</h2>
     <ul class=nav>
         <li><a href="http://localhost/b-class0605/portfolio/form/form.html">form</a></li>
         <li><a href="http://localhost/b-class0605/portfolio/gacha/gacha.php">gacha</a></li>
